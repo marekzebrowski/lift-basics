@@ -16,6 +16,7 @@ object AjaxFormOne {
   var infor="i"
     
   def process() :JsCmd = {
+    //that is colled when form is submitted
     println("process ok "+inputVal + infor)
     SetHtml("result", Text(inputVal + " "+infor) )
   }
