@@ -25,6 +25,5 @@ object AjaxFormOne {
     println("render")
     "name=infor" #> SHtml.text(infor, infor = _) &
     "name=in" #> ( SHtml.text(inputVal, inputVal = _ ) ++ SHtml.hidden(process))
-      
   }
 }

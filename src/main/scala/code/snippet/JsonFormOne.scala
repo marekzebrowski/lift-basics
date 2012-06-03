@@ -11,7 +11,6 @@ import net.liftweb.http.js.JsCmds._
 import net.liftweb.json._
 import net.liftweb.json.JsonParser._
 
-case class CmdInput(infor:String,in:String)
 
 class JsonFormOne {
     object  jsonHandler extends JsonHandler {
