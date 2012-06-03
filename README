@@ -1,4 +1,4 @@
-Lift version 2.4 basic web application configured for sbt version 0.11.2.
+Lift version 2.4 basic web application configured for sbt version 0.11.3
 Following sbt plugins are included:
 - xsbt-web-plugin
 - sbt-idea
@@ -6,6 +6,17 @@ Following sbt plugins are included:
 
 Simply run ./sbt to setup the project.
 To start jetty, run container:start
-To stop jetty, run constainer:stop
+To stop jetty, run container:stop
+for continuus development run:
 
-Enjoy building web applications with Lift!
+~; container:start; container:reload /
+
+That example has following functionalities enabled:
+1. dumb form processing
+2. ajax form processing
+3. json-ajax form processing
+4. basic screen processing
+
+More examples will be added in the future, those first four are just for begginers (as I am) trying 
+to figure out how to do simple things in lift. Those basics are missing from the usual sources, like
+lift's cookbook and simply.liftweb.net
