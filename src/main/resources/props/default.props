@@ -1,0 +1,4 @@
+db.driver=org.postgresql.Driver
+db.url=jdbc:postgresql://localhost/bif
+db.user=bif
+db.password=bif

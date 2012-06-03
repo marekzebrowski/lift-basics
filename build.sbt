@@ -25,8 +25,10 @@ libraryDependencies ++= {
 libraryDependencies ++= Seq(
   "junit" % "junit" % "4.5" % "test->default",
   "org.eclipse.jetty" % "jetty-webapp" % "7.5.4.v20111024" % "container",
+  "org.mortbay.jetty" % "jetty" % "6.1.22" % "test",
+  "org.scala-tools.testing" % "specs_2.9.0" % "1.6.8" % "test",
   "javax.servlet" % "servlet-api" % "2.5" % "provided->default",
   "com.h2database" % "h2" % "1.2.138",
   "ch.qos.logback" % "logback-classic" % "0.9.26" % "compile->default",
-  "postgresql" % "postgresql" % "9.0-801.jdbc4" % "compile->default"
+  "postgresql" % "postgresql" % "9.1-901.jdbc4" % "compile->default"
 )
